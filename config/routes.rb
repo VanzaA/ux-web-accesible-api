@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   post 'login', action: :login, controller: 'session'
-
+  resources :issues, only: [:index, :create] do;  end
 end
