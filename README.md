@@ -1,24 +1,7 @@
-# README
+## Backend del [proyecto final](https://github.com/VanzaA/ux-web-accesible) para la materia Diseño de experiencia de usuario.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Para ejecutar el proyecto es necesario tener:
+postgres: 14
+ruby: 3.0.2
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Instalar las dependencias con `bundle install`, crear la base de datos con `rails db:create` y ejecutar el proyecto con `rails server`
